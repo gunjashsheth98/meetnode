@@ -1,0 +1,14 @@
+{
+  "NODE_ENV": "development",
+  "mongo": {
+    "host": "cluster0.vls1d.mongodb.net",
+    "database": "meetingdata",
+    "username": "gunjash",
+    "password": "gunjash123",
+    "port": 27107,
+    "url3": "?retryWrites=true&w=majority"
+  },
+  "PORT": 5000,
+  "baseUrl": "http://localhost:5000",
+  "bodyParserLimit": "50mb"
+}
